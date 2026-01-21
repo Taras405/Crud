@@ -5,14 +5,14 @@
   "homepage": "https://Taras405.github.io/Crud/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Crud/",
-    "deploy": "gh-pages -d dist"
+    "build": "parcel build src/*.html --public-url /Crud/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+
     "gh-pages": "^6.3.0",
     "parcel-bundler": "^1.12.5"
   }
