@@ -4,8 +4,8 @@
   "description": "",
   "homepage": "https://Taras405.github.io/Crud/",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url /Crud/",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Crud/",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
